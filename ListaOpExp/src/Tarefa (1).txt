@@ -1,0 +1,184 @@
+﻿Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina
+Câmpus Lages 
+Ciência da Computação 
+Introdução à Programação 
+Prof. Wilson Castello Branco Neto
+
+
+
+
+Vinícius Souza Corbellini.                                                                 22/03/2024
+
+
+
+
+Lista 1:
+
+
+1) Calcule os resultados das seguintes expressões:
+ 5 + 3 * 6 / 2  = 14
+
+
+36 / 3 * 2 – 5 +8 = 27
+
+
+30 / 4 * 6  = 45
+
+
+30 % 4 * 6  = 12
+
+
+5 * 7 % 3 + 4 / 2 + 5  = 9
+
+
+(5 * 7 % 3 + 4) / 2 + 5  = 8
+
+
+(5 * 7 % 3) + 4 / (2 + 5)  =  2.57
+
+
+(5 * 7 % 3) + 4 / 2 + 5  = 9
+
+
+2) Monte a tabela do teste de mesa para o programa abaixo.
+ public static void main(String[] args) { 
+1 int p, vari, total, a, i;
+2 float valor_a, x;
+3 vari = 2;
+4  total = 10;
+5  valor_a = 7;
+6 a = -4;
+7 i = 80;
+8 x = 4;
+9 x = total / vari;
+10 x = x + 1; 
+11 a = a + 1; 
+12 p = 10;
+13 a = i / p; 
+14 a = a + i % 6;  
+15 valor_a = p * valor_a + x;
+ }
+
+
+
+
+linha
+	p
+	vari
+	total
+	a
+	i
+	x
+	valor_a
+	1
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	3
+	0
+	2
+	0
+	0
+	0
+	0
+	0
+	4
+	0
+	2
+	10
+	0
+	0
+	0
+	0
+	5
+	0
+	2
+	10
+	0
+	0
+	0
+	7
+	6
+	0
+	2
+	10
+	-4
+	0
+	0
+	7
+	7
+	0
+	2
+	10
+	-4
+	80
+	0
+	7
+	8
+	0
+	2
+	10
+	-4
+	80
+	4
+	7
+	9
+	0
+	2
+	10
+	-4
+	80
+	5
+	7
+	10
+	0
+	2
+	10
+	-4
+	80
+	6
+	7
+	11
+	0
+	2
+	10
+	-3
+	80
+	6
+	7
+	12
+	10
+	2
+	10
+	-3
+	80
+	6
+	7
+	13
+	10
+	2
+	10
+	8
+	80
+	6
+	7
+	14
+	10
+	2
+	10
+	10
+	80
+	6
+	7
+	15
+	10
+	2
+	10
+	10
+	80
+	6
+	76

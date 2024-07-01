@@ -1,0 +1,18 @@
+﻿Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina
+Câmpus Lages
+Ciência da Computação
+Introdução à Programação
+Prof. Wilson Castello Branco Neto
+Vinícius Souza Corbellini
+
+
+Lista de Exercícios 2
+
+
+1) Apresente os resultados (true ou false) das seguintes expressões:
+5 + 3 * 6 / 2 >= 10                                             TRUE
+36 / 3 * 2 – 5 +8 == 27                                         TRUE
+! (30 / 4 * 6 == 15)                                            TRUE
+(30 % 4 * 6 == 12) || true                                      TRUE
+(5 * 7 % 3) + 4 / 2 + 5 == 12 && (12 / 4 < 8)                   FALSE
+(((5 * 7 % 3 + 5) / 2 + 5) <= 14) || (! (12 / 4 < 8 * 2))       TRUE
