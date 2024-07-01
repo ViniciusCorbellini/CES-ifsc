@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Documents/manocorbas"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Pagina-Principal",
+		"liveServer.settings.port": 5501
+	}
+}
