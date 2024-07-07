@@ -1,0 +1,67 @@
+#botao {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#botao:hover {
+    background-color: darkgreen;
+}
+
+body {
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.exercise-list {
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+.header {
+    background-color: #25a121;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.espaco {
+    margin-bottom: 60px;
+
+}
+
+.espacoDireita {
+    margin-right: 500px;
+
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    width: 50%;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #000;
+}

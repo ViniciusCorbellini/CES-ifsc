@@ -10,43 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <style>
-        .exercise-list {
-            margin-bottom: 50px;
-            margin-top: 20px;
-
-        }
-
-        .header {
-            background-color: green;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-            margin-top: 20px;
-
-        }
-
-        .espaco {
-            margin-bottom: 30px;
-
-        }
-
-        .espacoDireita {
-            margin-right: 500px;
-
-        }
-        table {
-            border-collapse: separate;
-            border-spacing: 10px;
-            width: 50%;
-        }
-        th, td {
-            padding: 10px;
-            text-align: left;
-            border: 1px solid #000;
-        }
-    </style>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -87,7 +51,7 @@
 
             <div class="exercise-list">
                 <h3 class="text-center">Download da resposta dos Exercícios compactada em um arquivo .zip</h3>
-                <p class="text-center"><a href="./listarepeticao.rar" class="btn btn-primary">Baixar</a></p>
+                <p class="text-center"><a href="./listarepeticao.rar" class="btn btn-primary" id="botao">Baixar</a></p>
             </div>
         </div>
         <div class="espaco">
@@ -180,9 +144,10 @@
                 apartamento utilizado (A, B, C), o número de diárias utilizadas pelo hóspede
                 (que deverá ser superior a zero);
                 O valor da diária é determinado pela seguinte tabela
-                <img src="./img/Foto tabela do while.png" alt="Foto da tabela">
+
 
                 <ul>
+                    <img src="./img/Foto tabela do while.png" alt="Foto da tabela">
                     <li>Calcule o total a pagar ( total a pagar é o valor da diária multiplicado pelo
                         numero de dias hospedados)</li>
                     <li>Escreva a conta final contendo: o nome do hóspede, o tipo do
